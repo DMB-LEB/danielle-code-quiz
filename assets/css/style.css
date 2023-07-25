@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 2%;
+    padding: 5%;
+    border: 8%;
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+}
+
+
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block: 40px;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    }
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block: 40px;
+    text-align: center;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Geneva", "Verdana", "sans-serif";
+ }
+
+#highScores{
+    display: flex;
+    flex-direction: row;
+    margin-block: 40px;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    }
+
+#time{
+    display: flex;
+    flex-direction: row;
+    margin-block: 40px;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    } 
+
+.buttonBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+#button {
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 75px;
+    font-size: medium;
+    font-family: "Geneva", "Verdana", "sans-serif"; 
+    }
+  
+  #button:hover {
+    background-color: #2300639b;
+    color: white;
+    }
+ 
+
+    .buttonBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+#button {
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 75px;
+    font-size: medium;
+    font-family: "Geneva", "Verdana", "sans-serif"; 
+    }
+  
+  #button:hover {
+    background-color: #2300639b;
+    color: white;
+    }
+
+ .btnBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    }
+    
+ #btn {
+    transition-duration: 0.4s;
+    width: 70px;
+    height: 35px;
+    font-size: medium;
+    font-family: "Geneva", "Verdana", "sans-serif"; 
+    }
+      
+ #btn:hover {
+    background-color: #2300639b;
+    color: white;
+    }
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    font-size: large;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    justify-content: center;
+}
+
+.multipleChoice{
+    display: flex;
+    flex-direction: row;
+    margin-block: 10px;
+    font-size: medium;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    padding-left: 30%;
+    padding-right: 30%;
+    }
+
+.multipleChoice input:checked ~ .checkmark {
+display: flex;
+justify-content: center;
+}
