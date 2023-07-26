@@ -20,8 +20,8 @@ function rightAnswer(){
       response = "Correct ✅"
       document.getElementById('nextQuestion').style.visibility='visible';
     } else {
-      response = 'Incorrect ❌'
-      document.getElementById('nextQuestion').style.visibility='visible';
+      response = 'Incorrect ❌ Try again'
+      // document.getElementById('nextQuestion').style.visibility='visible';
     }
   
     document.getElementById("result").innerHTML = response;

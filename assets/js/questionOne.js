@@ -1,3 +1,5 @@
+  // import { countDowntimeSeconds } from "./script";
+
 let question = {
     QuestionOne: 'Commonly used data types DO NOT include:',
     multipleChoice: ['strings', 'booleans', 'alerts', 'numbers'],
@@ -32,22 +34,3 @@ let nextQuestionClass = document.getElementById('nextQuestion');
 nextQuestion.addEventListener('click', function(){
     window.open("questionTwo.html", "_self");
 });
-
-  
-  // function showQuestionOne(q1) { 
-  //   let QuestionOneDiv = document.getElementById('questionOne');
-  //   let multiChoice = document.querySelectorAll(".multipleChoice");
-  //   multiChoice.forEach(function(element, index)
-  //   {element.textContent = q1.multipleChoice[index];}); 
-  // }
-  // showQuestionOne(question);
-
-
-
-    // question.onsubmit = function rightAnswer(question){
-  //   if (selection==question.correctAnswer){
-  //     response = "Correct!"
-  //   } else {
-  //     response = 'Incorrect ❌'
-  //   }
-  // }
