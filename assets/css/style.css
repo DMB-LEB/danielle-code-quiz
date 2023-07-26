@@ -78,12 +78,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 25px;
     }
 
 #button {
     transition-duration: 0.4s;
     width: 150px;
     height: 75px;
+
     font-size: medium;
     font-family: "Geneva", "Verdana", "sans-serif"; 
     }
@@ -98,6 +100,7 @@ body {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+    
     }
     
  #btn {
@@ -136,3 +139,40 @@ div {
 display: flex;
 justify-content: center;
 }
+
+.highScoreTitile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 27px;
+    margin-block: 40px;
+    font-family: "Geneva", "Verdana", "sans-serif";
+    }  
+
+#result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.nextQuestionClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 8px;
+    visibility: hidden;
+    }
+
+#nextQuestion {
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 50px;
+    font-size: small;
+    font-family: "Geneva", "Verdana", "sans-serif"; 
+    }
+      
+ #nextQuestion:hover {
+    background-color: #06370db2;
+    color: white;
+    }

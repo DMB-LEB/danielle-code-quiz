@@ -4,8 +4,30 @@ let question = {
     correctAnswer: 3
 };
 
-let btnBox = document.getElementById('btn');
-btnBox.addEventListener('click', function(){
-    console.log('Clicked');
+function rightAnswer(){
+    var ele = document.getElementsByName('dGroup');
+    var response;
+    var guess;
+    for (i = 0; i < ele.length; i++) {
+      if (ele[i].checked) {
+            guess = ele[i].value 
+          }
+    }
+  
+    if(guess==undefined){
+      response = 'You must choose an option'
+    } else if(guess == 3) {
+      response = "Correct ✅"
+      document.getElementById('nextQuestion').style.visibility='visible';
+    } else {
+      response = 'Incorrect ❌'
+      document.getElementById('nextQuestion').style.visibility='visible';
+    }
+  
+    document.getElementById("result").innerHTML = response;
+  }
+  
+  let nextQuestionClass = document.getElementById('nextQuestion');
+  nextQuestion.addEventListener('click', function(){
     window.open("questionFive.html", "_self");
-});
+  });

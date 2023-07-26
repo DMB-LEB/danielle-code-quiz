@@ -9,17 +9,21 @@
 </head>
 
 <body>
+    <p id="time"> test </p> 
     <div id="questionTwo" style="list-style-type:none"> Commonly used data types DO NOT include: </div>
         <ul>
-            <li class="multipleChoice" value="0"> <input type="radio" name="bGroup"> quotes </li>
-            <li class="multipleChoice" value="1"> <input type="radio" name="bGroup"> curley brackets </li>
-            <li class="multipleChoice" value="2"> <input type="radio" name="bGroup"> parenthesis </li>
-            <li class="multipleChoice" value="3"> <input type="radio" name="bGroup"> square brackets </li>
+            <li class="multipleChoice"> <input type="radio" name="bGroup" value="0"> quotes </li>
+            <li class="multipleChoice"> <input type="radio" name="bGroup" value="1"> curley brackets </li>
+            <li class="multipleChoice"> <input type="radio" name="bGroup" value="2"> parenthesis </li>
+            <li class="multipleChoice"> <input type="radio" name="bGroup" value="3"> square brackets </li>
         </ul>
-        <div class="btnBox"> <button id="btn"> Submit</button>  </div> 
+        <div class="btnBox"> <button onclick="rightAnswer()" id="btn"> Submit</button></div> 
+        <div id="result"> </div>
+        <div class="nextQuestionClass"> <button onclick="rightAnswer()" id="nextQuestion"> Next question</button></div> 
         <script src="assets/js/script.js"> </script>
         <script src="assets/js/questionTwo.js"> </script>
     </body>
 
 <footer> 
 </footer>
+

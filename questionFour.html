@@ -9,14 +9,17 @@
 </head>
 
 <body>
+    <p id="time"> test </p> 
     <div id="questionFour" style="list-style-type:none">A very useful tool used in development and debugging for printing content to the debugger is:</div>
     <ul>
-        <li class="multipleChoice" value="0"> <input type="radio" name="dGroup">JavaScript</li>
-        <li class="multipleChoice" value="1"> <input type="radio" name="dGroup">terminal/bash</li>
-        <li class="multipleChoice" value="2"> <input type="radio" name="dGroup">for loops</li>
-        <li class="multipleChoice" value="3"> <input type="radio" name="dGroup">console.log</li>
+        <li class="multipleChoice"> <input type="radio" name="dGroup" value="0"> JavaScript </li>
+        <li class="multipleChoice"> <input type="radio" name="dGroup" value="1"> terminal/bash </li>
+        <li class="multipleChoice"> <input type="radio" name="dGroup" value="2"> for loops </li>
+        <li class="multipleChoice"> <input type="radio" name="dGroup" value="3"> console.log </li>
     </ul>
-    <div class="btnBox"> <button id="btn"> Submit</button>  </div> 
+    <div class="btnBox"> <button onclick="rightAnswer()" id="btn"> Submit</button></div> 
+    <div id="result"> </div>
+    <div class="nextQuestionClass"> <button onclick="rightAnswer()" id="nextQuestion"> Next question</button></div> 
     <script src="assets/js/script.js"> </script>
     <script src="assets/js/questionFour.js"> </script>
 </body>

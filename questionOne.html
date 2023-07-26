@@ -9,14 +9,17 @@
 </head>
 
 <body>
+    <p id="time"> test </p> 
 <div id="questionOne" style="list-style-type:none"> Commonly used data types DO NOT include: </div>
     <ul>
-        <li class="multipleChoice" value="0"> <input type="radio" name="aGroup"> strings </li>
-        <li class="multipleChoice" value="1"> <input type="radio" name="aGroup"> booleans </li>
-        <li class="multipleChoice" value="2"> <input type="radio" name="aGroup"> alerts </li>
-        <li class="multipleChoice" value="3"> <input type="radio" name="aGroup"> numbers </li>
+        <li class="multipleChoice"> <input type="radio" name="aGroup" value="0"> strings </li>
+        <li class="multipleChoice"> <input type="radio" name="aGroup" value="1"> booleans </li>
+        <li class="multipleChoice"> <input type="radio" name="aGroup" value="2"> alerts </li>
+        <li class="multipleChoice"> <input type="radio" name="aGroup" value="3"> numbers </li>
     </ul>
-    <div class="btnBox"> <button id="btn"> Submit</button></div> 
+    <div class="btnBox"> <button onclick="rightAnswer()" id="btn"> Submit</button></div> 
+    <div id="result"> </div>
+    <div class="nextQuestionClass"> <button onclick="rightAnswer()" id="nextQuestion"> Next question</button></div> 
     <script src="assets/js/script.js"> </script>
     <script src="assets/js/questionOne.js"> </script>
 </body>

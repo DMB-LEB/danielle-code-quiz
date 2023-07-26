@@ -9,14 +9,17 @@
 </head>
 
 <body>
+    <p id="time"> test </p> 
     <div id="questionThree" style="list-style-type:none"> Arrays in JavaScript can be used to store:</div>
     <ul>
-        <li class="multipleChoice" value="0"> <input type="radio" name="cGroup">numbers and strings</li>
-        <li class="multipleChoice" value="1"> <input type="radio" name="cGroup">other arrays</li>
-        <li class="multipleChoice" value="2"> <input type="radio" name="cGroup">booleans</li>
-        <li class="multipleChoice" value="3"> <input type="radio" name="cGroup">all of the above</li>
+        <li class="multipleChoice"> <input type="radio" name="cGroup" value="0"> numbers and strings </li>
+        <li class="multipleChoice"> <input type="radio" name="cGroup" value="1"> other arrays </li>
+        <li class="multipleChoice"> <input type="radio" name="cGroup" value="2"> booleans </li>
+        <li class="multipleChoice"> <input type="radio" name="cGroup" value="3"> all of the above </li>
     </ul>
-    <div class="btnBox"> <button id="btn"> Submit</button>  </div> 
+    <div class="btnBox"> <button onclick="rightAnswer()" id="btn"> Submit</button></div> 
+    <div id="result"> </div>
+    <div class="nextQuestionClass"> <button onclick="rightAnswer()" id="nextQuestion"> Next question</button></div> 
     <script src="assets/js/script.js"> </script>
     <script src="assets/js/questionThree.js"> </script>
 </body>
