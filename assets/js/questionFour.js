@@ -21,7 +21,6 @@ function rightAnswer(){
       document.getElementById('nextQuestion').style.visibility='visible';
     } else {
       response = 'Incorrect ❌ Try again'
-      // document.getElementById('nextQuestion').style.visibility='visible';
     }
   
     document.getElementById("result").innerHTML = response;

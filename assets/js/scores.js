@@ -1,5 +1,4 @@
 var scoreEl = document.getElementById('scoreList');
-// var highScore = 
 
 
 let titlePageClass = document.getElementById('titlePage');

@@ -1,3 +1,10 @@
+// import { localStorage } from "./questionOne";
+
+var clock = setInterval(function() {
+  countDowntimeSeconds-=1
+  document.getElementById('time').innerHTML = countDowntimeSeconds;
+}, 1000);
+
 let question = {
   QuestionTwo: 'The condition in an "if/else" statement is enclosed with:',
   multipleChoice: ['quotes', 'curley brackets', 'parenthesis', 'square brackets'],

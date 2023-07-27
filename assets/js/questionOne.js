@@ -1,4 +1,9 @@
-  // import { countDowntimeSeconds } from "./script";
+var countDowntimeSeconds = 300;
+
+var clock = setInterval(function() {
+    countDowntimeSeconds-=1
+    document.getElementById('time').innerHTML = countDowntimeSeconds;
+}, 1000);
 
 let question = {
     QuestionOne: 'Commonly used data types DO NOT include:',
@@ -34,3 +39,6 @@ let nextQuestionClass = document.getElementById('nextQuestion');
 nextQuestion.addEventListener('click', function(){
     window.open("questionTwo.html", "_self");
 });
+ 
+// localStorage.setItem('countDowntimeSeconds', JSON.stringify(countDowntimeSeconds));
+// export{localStorage} from '.questionOne.js';
